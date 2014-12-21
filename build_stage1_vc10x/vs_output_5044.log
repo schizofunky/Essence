@@ -1,0 +1,13 @@
+1>------ Build started: Project: Stage1_vc10x, Configuration: x86 Debug Win32 ------
+1>  animation.cpp
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>  Stage1_vc10x.vcxproj -> c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86
+1>  C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86"
+1>  "s3e_plink" -l "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86" 
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

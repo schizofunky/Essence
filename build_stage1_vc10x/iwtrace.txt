@@ -1,0 +1,433 @@
+-- START TRACE TO FILE --
+tracing to: ''
+MarmaladeSDK v7.4.2 [409586] (S3E Loader v4.39.0)
+Copyright (C) 2001-2014 Marmalade Technologies Ltd.
+System Info:
+ OS           : WINDOWS (3)
+ OS Version   : Windows 6.1 (6.1)
+ Device ID    : Windows Simulator (0x1)
+ Device Class : WINDOWS_GENERIC (3000)
+ Phone Number : 0044123456789
+ Unique ID    : SIMULATOR_ID
+ Device Name  : My Computer
+ Memory       : 1048576KiB
+10/12/14 22:50:11.404: [0x7e0] DEVICE: Initialising FIBRE
+10/12/14 22:50:11.404: [0x7e0] DEVICE: Initialising THREAD
+10/12/14 22:50:11.405: [0x7e0] THREAD: s3eThreadCreateMain
+10/12/14 22:50:11.405: [0xfa0] DEVICE: Initialising SURFACE
+10/12/14 22:50:11.406: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
+10/12/14 22:50:11.406: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+10/12/14 22:50:11.407: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+10/12/14 22:50:11.407: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
+10/12/14 22:50:11.408: [0xfa0] DEVICE: Initialising EXT
+10/12/14 22:50:11.408: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+10/12/14 22:50:11.409: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+10/12/14 22:50:11.409: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
+10/12/14 22:50:11.410: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+10/12/14 22:50:11.410: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+10/12/14 22:50:11.411: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+10/12/14 22:50:11.411: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
+10/12/14 22:50:11.412: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
+10/12/14 22:50:11.412: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+10/12/14 22:50:11.413: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+10/12/14 22:50:11.413: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+10/12/14 22:50:11.414: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+10/12/14 22:50:11.414: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+10/12/14 22:50:11.415: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+10/12/14 22:50:11.415: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+10/12/14 22:50:11.416: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+10/12/14 22:50:11.416: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+10/12/14 22:50:11.417: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
+10/12/14 22:50:11.417: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+10/12/14 22:50:11.418: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
+10/12/14 22:50:11.418: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+10/12/14 22:50:11.419: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+10/12/14 22:50:11.419: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+10/12/14 22:50:11.420: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+10/12/14 22:50:11.420: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
+10/12/14 22:50:11.421: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+10/12/14 22:50:11.421: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
+10/12/14 22:50:11.422: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+10/12/14 22:50:11.422: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+10/12/14 22:50:11.423: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+10/12/14 22:50:11.423: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+10/12/14 22:50:11.424: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
+10/12/14 22:50:11.424: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
+10/12/14 22:50:11.425: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
+10/12/14 22:50:11.425: [0xfa0] DEVICE: Initialising CONFIG
+10/12/14 22:50:11.426: [0xfa0] DEVICE: Initialising TIMER
+10/12/14 22:50:11.426: [0xfa0] DEVICE: Initialising COMPRESSION
+10/12/14 22:50:11.426: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+10/12/14 22:50:11.427: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+10/12/14 22:50:11.428: [0xfa0] EXT: initializing extension: s3eWindow
+10/12/14 22:50:11.428: [0xfa0] EXT: initializing extension: s3eWindow 0x0113c270
+10/12/14 22:50:11.429: [0xfa0] DEVICE: SetupPaths: NULL
+10/12/14 22:50:11.429: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via"]
+10/12/14 22:50:11.430: [0xfa0] LOADER: setting [commandline]  via=c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via
+10/12/14 22:50:11.430: [0xfa0] LOADER: parsing via file: c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via
+10/12/14 22:50:11.431: [0xfa0] FILE: s3eFileOpen('c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via', 'r') succeeded, id=18863864 p=0x011fd6f8
+10/12/14 22:50:11.431: [0xfa0] LOADER: reading 1001 bytes from via files
+10/12/14 22:50:11.431: [0xfa0] FILE: s3eFileClose h=0x011fd6f8
+10/12/14 22:50:11.432: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via" --dll="c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X
+10/12/14 22:50:11.432: [0xfa0] LOADER: setting [commandline]  via=c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via
+10/12/14 22:50:11.433: [0xfa0] LOADER: setting [commandline]  dll=c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X_x86\Stage1.s86
+10/12/14 22:50:11.433: [0xfa0] LOADER: setting [commandline]  data=c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data
+10/12/14 22:50:11.434: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+10/12/14 22:50:11.434: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/data/app.icf
+10/12/14 22:50:11.435: [0xfa0] LOADER: setting [commandline]  win32-ext-dll1=c:/marmalade/7.4/extensions/pvrtextool/lib/win32/PVRTexTool.dll
+10/12/14 22:50:11.435: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/marmalade/7.4/modules/iw2d/docs/iw2d.config.txt
+10/12/14 22:50:11.436: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/7.4/modules/iwgeom/docs/iwgeom.config.txt
+10/12/14 22:50:11.436: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/7.4/modules/iwgl/docs/iwgl.config.txt
+10/12/14 22:50:11.437: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/7.4/modules/iwgx/docs/iwgx.config.txt
+10/12/14 22:50:11.437: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/marmalade/7.4/modules/iwgxfont/docs/iwgxfont.config.txt
+10/12/14 22:50:11.438: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/marmalade/7.4/modules/iwresmanager/docs/iwresmanager.config.txt
+10/12/14 22:50:11.438: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/marmalade/7.4/modules/iwutil/docs/iwutil.config.txt
+10/12/14 22:50:11.439: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/marmalade/7.4/s3e/s3e.config.txt
+10/12/14 22:50:11.439: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/marmalade/7.4/s3e\s3e.config.txt
+10/12/14 22:50:11.440: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/7.4/s3e
+10/12/14 22:50:11.441: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+10/12/14 22:50:11.441: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data'
+10/12/14 22:50:11.442: [0xfa0] FILE: fs[03]: system[raw://] ''
+10/12/14 22:50:11.442: [0xfa0] FILE: listed 2 active filesystems
+10/12/14 22:50:11.443: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+10/12/14 22:50:11.443: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data'
+10/12/14 22:50:11.444: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data-ram'
+10/12/14 22:50:11.444: [0xfa0] FILE: fs[03]: system[raw://] ''
+10/12/14 22:50:11.445: [0xfa0] FILE: listed 3 active filesystems
+10/12/14 22:50:11.447: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+10/12/14 22:50:11.448: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+10/12/14 22:50:11.448: [0xfa0] LOADER: Using data directory c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data as ROM drive
+10/12/14 22:50:11.449: [0xfa0] LOADER: Using directory c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data-ram as RAM drive
+10/12/14 22:50:11.450: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/modules/iw2d/docs/iw2d.config.txt', 'r') succeeded, id=1000 p=0x011fedcc
+10/12/14 22:50:11.450: [0xfa0] FILE: s3eFileClose h=0x011fedcc
+10/12/14 22:50:11.450: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/modules/iwgeom/docs/iwgeom.config.txt', 'r') succeeded, id=1001 p=0x011feee8
+10/12/14 22:50:11.450: [0xfa0] FILE: s3eFileClose h=0x011feee8
+10/12/14 22:50:11.451: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/modules/iwgl/docs/iwgl.config.txt', 'r') succeeded, id=1002 p=0x011ff004
+10/12/14 22:50:11.451: [0xfa0] FILE: s3eFileClose h=0x011ff004
+10/12/14 22:50:11.452: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/modules/iwgx/docs/iwgx.config.txt', 'r') succeeded, id=1003 p=0x011ff120
+10/12/14 22:50:11.452: [0xfa0] FILE: s3eFileClose h=0x011ff120
+10/12/14 22:50:11.453: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/modules/iwgxfont/docs/iwgxfont.config.txt', 'r') succeeded, id=1004 p=0x011ff23c
+10/12/14 22:50:11.453: [0xfa0] FILE: s3eFileClose h=0x011ff23c
+10/12/14 22:50:11.454: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/modules/iwresmanager/docs/iwresmanager.config.txt', 'r') succeeded, id=1005 p=0x011ff358
+10/12/14 22:50:11.454: [0xfa0] FILE: s3eFileClose h=0x011ff358
+10/12/14 22:50:11.454: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1006 p=0x011ff474
+10/12/14 22:50:11.455: [0xfa0] FILE: s3eFileClose h=0x011ff474
+10/12/14 22:50:11.455: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/s3e/s3e.config.txt', 'r') succeeded, id=1007 p=0x011ff590
+10/12/14 22:50:11.459: [0xfa0] FILE: s3eFileClose h=0x011ff590
+10/12/14 22:50:11.459: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.4/s3e\s3e.config.txt', 'r') succeeded, id=1008 p=0x011ff6ac
+10/12/14 22:50:11.463: [0xfa0] FILE: s3eFileClose h=0x011ff6ac
+10/12/14 22:50:11.465: [0xfa0] FILE: s3eFileOpen('raw://c:\marmalade\7.4\s3e/s3e.icf', 'rb') succeeded, id=1009 p=0x011ff7c8
+10/12/14 22:50:11.466: [0xfa0] LOADER: Loading config from: c:\marmalade\7.4\s3e/s3e.icf
+10/12/14 22:50:11.466: [0xfa0] FILE: s3eFileClose h=0x011ff7c8
+10/12/14 22:50:11.467: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/data/app.icf
+10/12/14 22:50:11.467: [0xfa0] FILE: s3eFileOpen('raw://c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/data/app.icf', 'rb') succeeded, id=1010 p=0x011ff8e4
+10/12/14 22:50:11.467: [0xfa0] LOADER: Loading config from: raw://c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/data/app.icf
+10/12/14 22:50:11.468: [0xfa0] FILE: s3eFileClose h=0x011ff8e4
+10/12/14 22:50:11.468: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via"]
+10/12/14 22:50:11.468: [0xfa0] LOADER: setting [commandline]  via=c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via
+10/12/14 22:50:11.469: [0xfa0] LOADER: parsing via file: c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via
+10/12/14 22:50:11.469: [0xfa0] FILE: s3eFileOpen('c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via', 'r') succeeded, id=1011 p=0x011ffa00
+10/12/14 22:50:11.469: [0xfa0] LOADER: reading 1001 bytes from via files
+10/12/14 22:50:11.469: [0xfa0] FILE: s3eFileClose h=0x011ffa00
+10/12/14 22:50:11.469: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via" --dll="c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X
+10/12/14 22:50:11.470: [0xfa0] LOADER: setting [commandline]  via=c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x_debug.via
+10/12/14 22:50:11.470: [0xfa0] LOADER: setting [commandline]  dll=c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X_x86\Stage1.s86
+10/12/14 22:50:11.470: [0xfa0] LOADER: setting [commandline]  data=c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data
+10/12/14 22:50:11.470: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+10/12/14 22:50:11.470: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/data/app.icf
+10/12/14 22:50:11.470: [0xfa0] LOADER: setting [commandline]  win32-ext-dll1=c:/marmalade/7.4/extensions/pvrtextool/lib/win32/PVRTexTool.dll
+10/12/14 22:50:11.471: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/marmalade/7.4/modules/iw2d/docs/iw2d.config.txt
+10/12/14 22:50:11.471: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/7.4/modules/iwgeom/docs/iwgeom.config.txt
+10/12/14 22:50:11.471: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/7.4/modules/iwgl/docs/iwgl.config.txt
+10/12/14 22:50:11.471: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/7.4/modules/iwgx/docs/iwgx.config.txt
+10/12/14 22:50:11.471: [0xfa0] LOADER: setting [commandline]  config-txt5=c:/marmalade/7.4/modules/iwgxfont/docs/iwgxfont.config.txt
+10/12/14 22:50:11.471: [0xfa0] LOADER: setting [commandline]  config-txt6=c:/marmalade/7.4/modules/iwresmanager/docs/iwresmanager.config.txt
+10/12/14 22:50:11.472: [0xfa0] LOADER: setting [commandline]  config-txt7=c:/marmalade/7.4/modules/iwutil/docs/iwutil.config.txt
+10/12/14 22:50:11.472: [0xfa0] LOADER: setting [commandline]  config-txt8=c:/marmalade/7.4/s3e/s3e.config.txt
+10/12/14 22:50:11.472: [0xfa0] LOADER: setting [commandline]  config-txt9=c:/marmalade/7.4/s3e\s3e.config.txt
+10/12/14 22:50:11.472: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/7.4/s3e
+10/12/14 22:50:11.472: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
+10/12/14 22:50:11.473: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\SCHIZO~1\AppData\Local\Temp\\_marm_temp_test_', 'w') succeeded, id=1012 p=0x011ffb1c
+10/12/14 22:50:11.473: [0xfa0] FILE: s3eFileClose h=0x011ffb1c
+10/12/14 22:50:11.474: [0xfa0] FILE: new filesystem: drive=4 type=0 ro=0 name=tmp://
+10/12/14 22:50:11.474: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data'
+10/12/14 22:50:11.475: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\data-ram'
+10/12/14 22:50:11.475: [0xfa0] FILE: fs[03]: system[raw://] ''
+10/12/14 22:50:11.476: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\SCHIZO~1\AppData\Local\Temp\'
+10/12/14 22:50:11.476: [0xfa0] FILE: listed 4 active filesystems
+10/12/14 22:50:11.500: [0xfa0] SURFACE: Fixed Screen Orientation: FixedPortrait
+10/12/14 22:50:11.500: [0xfa0] SURFACE: scaling=1
+10/12/14 22:50:11.525: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
+10/12/14 22:50:11.526: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB888 native=RGB565)
+10/12/14 22:50:11.528: [0xfa0] EXT: Registering user-supplied extensions
+10/12/14 22:50:11.529: [0xfa0] EXT: Loading extension dll c:/marmalade/7.4/extensions/pvrtextool/lib/win32/PVRTexTool_d.dll
+10/12/14 22:50:11.530: [0xfa0] LOADER: GL not present, resolving all GL symbols to unavailable
+10/12/14 22:50:11.533: [0xfa0] EXT: registering extension: PVRTexTool [0xb6b3ceac]
+10/12/14 22:50:11.533: [0xfa0] FIBRE: stack switch : enabled
+10/12/14 22:50:11.533: [0xfa0] FIBRE: fast switch  : disabled
+10/12/14 22:50:11.534: [0xfa0] FIBRE: global lock  : enabled
+10/12/14 22:50:11.534: [0xfa0] FIBRE: fast lock    : disabled
+10/12/14 22:50:11.535: [0xfa0] FIBRE: thunks       : enabled
+10/12/14 22:50:11.535: [0xfa0] LOADER: Calling s3eDeviceInit()
+10/12/14 22:50:11.536: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
+10/12/14 22:50:11.536: [0xfa0] DEVICE: Initialising CALLBACKS
+10/12/14 22:50:11.537: [0xfa0] DEVICE: Initialising CRYPTO
+10/12/14 22:50:11.538: [0xfa0] DEVICE: Initialising ERROR
+10/12/14 22:50:11.538: [0xfa0] DEVICE: Initialising SOCKET
+10/12/14 22:50:11.539: [0xfa0] DEVICE: Initialising STORAGE
+10/12/14 22:50:11.539: [0xfa0] DEVICE: Initialising VIBRA
+10/12/14 22:50:11.540: [0xfa0] DEVICE: Initialising KEYBOARD
+10/12/14 22:50:11.540: [0xfa0] DEVICE: Initialising POINTER
+10/12/14 22:50:11.541: [0xfa0] DEVICE: Initialising ACCELEROMETER
+10/12/14 22:50:11.541: [0xfa0] ACCELEROMETER: damping=0 scaling=0
+10/12/14 22:50:11.542: [0xfa0] DEVICE: Initialising SOUND
+10/12/14 22:50:11.593: [0xfa0] SOUND: stereo sound enabled
+10/12/14 22:50:11.593: [0xfa0] SOUND: s3eSoundStop: started=0
+10/12/14 22:50:11.593: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
+10/12/14 22:50:11.594: [0xfa0] DEVICE: Initialising AUDIO
+10/12/14 22:50:11.594: [0xfa0] AUDIO: Number of channels = 16
+10/12/14 22:50:11.595: [0xfa0] DEVICE: Initialising VIDEO
+10/12/14 22:50:11.595: [0xfa0] DEVICE: Initialising LICENSE
+10/12/14 22:50:11.596: [0xfa0] DEVICE: Initialising GL
+10/12/14 22:50:11.596: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
+10/12/14 22:50:11.600: [0xfa0] SPLASH: displaying debug splash-screen
+10/12/14 22:50:11.618: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
+10/12/14 22:50:11.636: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+10/12/14 22:50:11.636: [0xfa0] SPLASH: No splash screen specified
+10/12/14 22:50:11.641: [0xfa0] LOADER: s3eExecInit Done
+10/12/14 22:50:11.645: [0xfa0] LOADER: found initial S3E file: raw://c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X_x86\Stage1.s86
+10/12/14 22:50:11.645: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X_x86\Stage1.s86 [root=NULL 0x00000000 0x00000000]
+10/12/14 22:50:11.646: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X_x86\Stage1.s86
+10/12/14 22:50:11.646: [0xfa0] LOADER: s3eExecDoExecuteLoop
+10/12/14 22:50:11.664: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+10/12/14 22:50:11.665: [0xfa0] SOCKET: s3eSocketCreate -> p=0x012a3b9c id=3000
+10/12/14 22:50:11.665: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
+10/12/14 22:50:11.666: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '74.125.230.229:0'
+10/12/14 22:50:11.666: [0xfa0] SOCKET: s3eSocketConnect: 0x012a3b9c -> 74.125.230.229:80
+10/12/14 22:50:11.667: [0xfa0] SOCKET: TryConnect error: 10036
+10/12/14 22:50:11.667: [0xfa0] SOCKET: Connect: FAILED (0: )
+10/12/14 22:50:11.670: [0xfa0] LOADER: AppVersion: 4 39
+10/12/14 22:50:11.670: [0xfa0] LOADER: S3E Version    : 4.39.0
+10/12/14 22:50:11.671: [0xfa0] LOADER: Arch           : X86
+10/12/14 22:50:11.671: [0xfa0] LOADER: VFP            : 1
+10/12/14 22:50:11.672: [0xfa0] LOADER: App S3E Version: 4.39.0
+10/12/14 22:50:11.672: [0xfa0] LOADER: App arch       : X86
+10/12/14 22:50:11.673: [0xfa0] LOADER: App VFP        : 0
+10/12/14 22:50:11.673: [0xfa0] LOADER: new s3eExecHandle = 0x00125628
+10/12/14 22:50:11.674: [0xfa0] SOCKET: TryConnect error: 10056
+10/12/14 22:50:11.674: [0xfa0] SOCKET: NotifyConnect: 3000 0x012a3b9c
+10/12/14 22:50:11.675: [0xfa0] FILE: s3eFileOpen('ident.free', 'r') succeeded, id=1013 p=0x011ffc38
+10/12/14 22:50:11.676: [0xfa0] FILE: s3eFileOpen('ram://uident.free', 'r') succeeded, id=1014 p=0x011ffd54
+10/12/14 22:50:11.676: [0xfa0] FILE: s3eFileClose h=0x011ffd54
+10/12/14 22:50:11.676: [0xfa0] SOCKET: s3eSocketClose: 0x012a3b9c open=1
+10/12/14 22:50:13.604: [0xfa0] LOADER: Screen size: 320 480
+10/12/14 22:50:13.608: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1015 p=0x011ffe70
+10/12/14 22:50:13.608: [0xfa0] FILE: s3eFileClose h=0x011ffe70
+10/12/14 22:50:13.610: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg
+10/12/14 22:50:13.610: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1016 p=0x011fff8c
+10/12/14 22:50:13.610: [0xfa0] VIDEO: data in in JPG (EXIF) format
+10/12/14 22:50:13.611: [0xfa0] FILE: s3eFileClose h=0x011fff8c
+10/12/14 22:50:13.611: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+10/12/14 22:50:13.612: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg
+10/12/14 22:50:13.612: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1017 p=0x012000a8
+10/12/14 22:50:13.612: [0xfa0] JPEG: loading jpeg file: raw://C:\Marmalade\7.4\s3e/deploy/resources/mwm-splash-320.jpg [37220]
+10/12/14 22:50:13.613: [0xfa0] JPEG: jpeg head was read: [320x320]
+10/12/14 22:50:13.615: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
+10/12/14 22:50:13.616: [0xfa0] JPEG: from [320x320] to [320x320]
+10/12/14 22:50:13.623: [0xfa0] FILE: s3eFileClose h=0x012000a8
+10/12/14 22:50:13.623: [0xfa0] VIDEO: s3eVideoPlay done: 0
+10/12/14 22:50:15.615: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1018 p=0x012001c4
+10/12/14 22:50:15.616: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg
+10/12/14 22:50:15.616: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1019 p=0x012002e0
+10/12/14 22:50:15.616: [0xfa0] VIDEO: data in in JPG (EXIF) format
+10/12/14 22:50:15.616: [0xfa0] FILE: s3eFileClose h=0x012002e0
+10/12/14 22:50:15.617: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+10/12/14 22:50:15.617: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg
+10/12/14 22:50:15.618: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1020 p=0x012003fc
+10/12/14 22:50:15.618: [0xfa0] JPEG: loading jpeg file: raw://C:\Marmalade\7.4\s3e/deploy/resources/ads/ad.320.jpg [30325]
+10/12/14 22:50:15.619: [0xfa0] JPEG: jpeg head was read: [320x320]
+10/12/14 22:50:15.622: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
+10/12/14 22:50:15.622: [0xfa0] JPEG: from [320x320] to [320x320]
+10/12/14 22:50:15.630: [0xfa0] FILE: s3eFileClose h=0x012003fc
+10/12/14 22:50:15.630: [0xfa0] VIDEO: s3eVideoPlay done: 0
+10/12/14 22:50:21.622: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+10/12/14 22:50:21.622: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+10/12/14 22:50:21.623: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+10/12/14 22:50:21.624: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
+10/12/14 22:50:21.624: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
+10/12/14 22:50:21.624: [0xfa0] DEVICE: Initialising MEMORY
+10/12/14 22:50:21.625: [0xfa0] MEMORY: Loader heap size=30000
+10/12/14 22:50:21.625: [0xfa0] MEMORY: using default size (3145728) for heap0 (set MemSize in your game.icf to override this)
+10/12/14 22:50:21.627: [0xfa0] MEMORY: Initialised heap 0 [0x083c1c64-0x086c1c64] size=3145728
+10/12/14 22:50:21.627: [0xfa0] MEMORY: Initialised heap 7 [0x01021464-0x0102dc64] size=51200
+10/12/14 22:50:21.628: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x00221d80 0x00221fc0 0x00221a98
+10/12/14 22:50:21.628: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
+10/12/14 22:50:21.629: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x53c554ba
+10/12/14 22:50:21.629: [0xfa0] LOADER: Executing S3E 0x00125628 [c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X_x86\Stage1.s86] entry=0x53c554ba
+10/12/14 22:50:21.630: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x54f4e1a0 size=76]
+10/12/14 22:50:21.630: [0xfa0] EXT: initializing extension: s3eThread
+10/12/14 22:50:21.631: [0xfa0] EXT: initializing extension: s3eThread 0x01118450
+10/12/14 22:50:21.632: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x53c55fcd 0x53c55feb 0x53c4d5ad
+10/12/14 22:50:21.640: [0xfa0] GX_VERBOSE: IwGxInitBase()
+10/12/14 22:50:21.640: [0xfa0] EXT: s3eExtGetHash: 0x2bc8e047 [0x54f4df40 size=72]
+10/12/14 22:50:21.641: [0xfa0] EXT: initializing extension: s3eMetrics
+10/12/14 22:50:21.641: [0xfa0] EXT: s3eExtGetHash: 0xc667a795 [0x54f4dfe0 size=8]
+10/12/14 22:50:21.642: [0xfa0] EXT: initializing extension: s3eDebugHeap
+10/12/14 22:50:21.642: [0xfa0] MEMORY: s3eExtDebugHeapAlloc: 5242880 bytes allocated for system debug heap
+10/12/14 22:50:21.645: [0xfa0] UTIL: IwCallStackInit
+10/12/14 22:50:21.647: [0xfa0] GX_VERBOSE: Registering for S3E_SURFACE_SCREENSIZE callback
+10/12/14 22:50:21.647: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
+10/12/14 22:50:21.647: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+10/12/14 22:50:21.648: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+10/12/14 22:50:21.648: [0xfa0] GX: IwGxSetScreenOrient: 0
+10/12/14 22:50:21.655: [0xfa0] IW_GL: EGL: eglGetDisplay returned 03873248
+10/12/14 22:50:21.668: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
+10/12/14 22:50:21.668: [0xfa0] IW_GL: S3E_EGL_VERSION: 0104
+10/12/14 22:50:21.669: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
+10/12/14 22:50:21.669: [0xfa0] IW_GL: EGL_VENDOR: Google Inc.
+10/12/14 22:50:21.670: [0xfa0] IW_GL: EGL_VERSION: 1.4 (ANGLE 1.0.0.1275)
+10/12/14 22:50:21.670: [0xfa0] IW_GL:     EGL_EXT_create_context_robustness
+10/12/14 22:50:21.671: [0xfa0] IW_GL:     EGL_ANGLE_d3d_share_handle_client_buffer
+10/12/14 22:50:21.671: [0xfa0] IW_GL:     EGL_ANGLE_query_surface_pointer
+10/12/14 22:50:21.672: [0xfa0] IW_GL:     EGL_ANGLE_surface_d3d_texture_2d_share_handle
+10/12/14 22:50:21.672: [0xfa0] IW_GL:     EGL_NV_post_sub_buffer
+10/12/14 22:50:21.673: [0xfa0] GL_CORE: rejecting config 0: EGL_DEPTH_SIZE < 16
+10/12/14 22:50:21.673: [0xfa0] GL_CORE: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 22:50:21.674: [0xfa0] GL_CORE: rejecting config 5: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 22:50:21.675: [0xfa0] GL_CORE: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 22:50:21.675: [0xfa0] GL_CORE: rejecting config 7: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 22:50:21.676: [0xfa0] GL_CORE: rejecting config 8: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 22:50:21.676: [0xfa0] GL_CORE: rejecting config 9: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 22:50:21.677: [0xfa0] GL_CORE: rejecting config 10: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 22:50:21.677: [0xfa0] GL_CORE: rejecting config 11: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 22:50:21.678: [0xfa0] GL_CORE: EGL: Chose EGL_CONFIG_ID 3
+10/12/14 22:50:21.694: [0xfa0] IW_GL: GL_VENDOR: Google Inc.
+10/12/14 22:50:21.694: [0xfa0] IW_GL: GL_RENDERER: ANGLE (NVIDIA GeForce GTX 480)
+10/12/14 22:50:21.694: [0xfa0] IW_GL: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.1275)
+10/12/14 22:50:21.695: [0xfa0] IW_GL: GL properties reported by driver:
+10/12/14 22:50:21.695: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 20
+10/12/14 22:50:21.696: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
+10/12/14 22:50:21.696: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
+10/12/14 22:50:21.697: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 254
+10/12/14 22:50:21.697: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 10
+10/12/14 22:50:21.698: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
+10/12/14 22:50:21.698: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 4
+10/12/14 22:50:21.699: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 221
+10/12/14 22:50:21.699: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+10/12/14 22:50:21.700: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGB
+10/12/14 22:50:21.700: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_SHORT_5_6_5
+10/12/14 22:50:21.701: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 16384
+10/12/14 22:50:21.701: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: -1
+10/12/14 22:50:21.702: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 16384
+10/12/14 22:50:21.702: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: (16384, 16384)
+10/12/14 22:50:21.703: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
+10/12/14 22:50:21.703: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
+10/12/14 22:50:21.703: [0xfa0] IW_GL:     GL_OES_element_index_uint
+10/12/14 22:50:21.703: [0xfa0] IW_GL:     GL_OES_texture_half_float_linear
+10/12/14 22:50:21.704: [0xfa0] IW_GL:     GL_NV_fence
+10/12/14 22:50:21.704: [0xfa0] IW_GL:     GL_EXT_read_format_bgra
+10/12/14 22:50:21.704: [0xfa0] IW_GL:     GL_OES_get_program_binary
+10/12/14 22:50:21.705: [0xfa0] IW_GL:     GL_OES_rgb8_rgba8
+10/12/14 22:50:21.705: [0xfa0] IW_GL:     GL_EXT_texture_compression_dxt1
+10/12/14 22:50:21.705: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt3
+10/12/14 22:50:21.706: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt5
+10/12/14 22:50:21.706: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
+10/12/14 22:50:21.706: [0xfa0] IW_GL:     GL_OES_texture_npot
+10/12/14 22:50:21.706: [0xfa0] IW_GL:     GL_EXT_texture_format_BGRA8888
+10/12/14 22:50:21.707: [0xfa0] IW_GL:     GL_OES_texture_half_float
+10/12/14 22:50:21.707: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_multisample
+10/12/14 22:50:21.707: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_blit
+10/12/14 22:50:21.708: [0xfa0] IW_GL:     GL_OES_standard_derivatives
+10/12/14 22:50:21.708: [0xfa0] IW_GL:     GL_OES_texture_float
+10/12/14 22:50:21.708: [0xfa0] IW_GL:     GL_OES_texture_float_linear
+10/12/14 22:50:21.709: [0xfa0] IW_GL:     GL_EXT_texture_filter_anisotropic
+10/12/14 22:50:21.709: [0xfa0] IW_GL:     GL_ANGLE_depth_texture
+10/12/14 22:50:21.709: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
+10/12/14 22:50:21.709: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+10/12/14 22:50:21.710: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+10/12/14 22:50:21.725: [0xfa0] GX: Parsing GL driver strings
+10/12/14 22:50:21.725: [0xfa0] GX_VERBOSE: Hardware capabilities:
+10/12/14 22:50:21.726: [0xfa0] FILE: s3eFileOpen('resource_cache/cachedSize.bin', 'rb') succeeded, id=1021 p=0x01200518
+10/12/14 22:50:21.727: [0xfa0] FILE: s3eFileClose h=0x01200518
+10/12/14 22:50:21.727: [0xfa0] UTIL: Added class factory for CIwGxShaderTechnique (hash 0x62ab11c4)
+10/12/14 22:50:21.727: [0xfa0] UTIL: Added class factory for CIwGxCubeMap (hash 0x5474a064)
+10/12/14 22:50:21.728: [0xfa0] GX_VERBOSE: IwGxInit() end
+10/12/14 22:50:21.728: [0xfa0] GX_VERBOSE: _IwGxInitGL()
+10/12/14 22:50:21.728: [0xfa0] GX_VERBOSE: Reported: Max texture stages 20. Max dimensions 16384x16384
+10/12/14 22:50:21.729: [0xfa0] GX_VERBOSE: Default framebuffer binding is 0
+10/12/14 22:50:21.729: [0xfa0] GX_VERBOSE: _IwGxInitGL() end
+10/12/14 22:50:21.730: [0xfa0] UTIL: Added class factory for CIwResTemplateImage (hash 0x4d5ab6b1)
+10/12/14 22:50:21.730: [0xfa0] UTIL: Added class factory for CIwResTemplateMTL (hash 0x3a22b5bb)
+10/12/14 22:50:21.730: [0xfa0] UTIL: Added class factory for CIwResTemplateGROUP (hash 0x4d3980fb)
+10/12/14 22:50:21.731: [0xfa0] UTIL: Added class factory for CIwMaterial (hash 0x2544f997)
+10/12/14 22:50:21.731: [0xfa0] UTIL: Added class factory for CIwResGroup (hash 0xf446397f)
+10/12/14 22:50:21.731: [0xfa0] UTIL: Added class factory for CIwTexture (hash 0x3521f539)
+10/12/14 22:50:21.732: [0xfa0] UTIL: Added class factory for CIwResBuildStyle (hash 0xa59f2593)
+10/12/14 22:50:21.732: [0xfa0] RESMANAGER: Added serialise block for ResGroupMembers
+10/12/14 22:50:21.732: [0xfa0] RESMANAGER: Added serialise block for ResGroupBuildData
+10/12/14 22:50:21.733: [0xfa0] RESMANAGER: Added serialise block for ResGroupChildPaths
+10/12/14 22:50:21.733: [0xfa0] RESMANAGER: Added serialise block for ResGroupHST
+10/12/14 22:50:21.733: [0xfa0] RESMANAGER: Added serialise block for ResGroupDirectory
+10/12/14 22:50:21.733: [0xfa0] RESMANAGER: Added serialise block for ResGroupResources
+10/12/14 22:50:21.734: [0xfa0] RESMANAGER: Added serialise block for ResGroupResourcesOptimised
+10/12/14 22:50:21.734: [0xfa0] RESMANAGER: Setting build style to 'gles1'
+10/12/14 22:50:21.735: [0xfa0] UTIL: Added class factory for CIwGxFont (hash 0xa68776be)
+10/12/14 22:50:21.735: [0xfa0] UTIL: Added class factory for CIwGxFontTTFont (hash 0xc084661d)
+10/12/14 22:50:21.736: [0xfa0] UTIL: Added class factory for CIwResTemplateGXFONT (hash 0xf4d12aa4)
+10/12/14 22:50:21.737: [0xfa0] UTIL: Found 'textures/Tiles.png' using default path
+10/12/14 22:50:21.737: [0xfa0] FILE: s3eFileOpen('textures/Tiles.png', 'rb') succeeded, id=1022 p=0x01200634
+10/12/14 22:50:21.739: [0xfa0] FILE: s3eFileClose h=0x01200634
+10/12/14 22:50:21.741: [0xfa0] UTIL: Found 'textures/AvatarTest.png' using default path
+10/12/14 22:50:21.742: [0xfa0] FILE: s3eFileOpen('textures/AvatarTest.png', 'rb') succeeded, id=1023 p=0x01200750
+10/12/14 22:50:21.747: [0xfa0] FILE: s3eFileClose h=0x01200750
+10/12/14 22:50:21.751: [0xfa0] UTIL: Found 'textures/AvatarTest.png' using default path
+10/12/14 22:50:21.751: [0xfa0] FILE: s3eFileOpen('textures/AvatarTest.png', 'rb') succeeded, id=1024 p=0x0120086c
+10/12/14 22:50:21.756: [0xfa0] FILE: s3eFileClose h=0x0120086c
+10/12/14 22:50:21.760: [0xfa0] FILE: s3eFileOpen('tilemaps/tilemapdemo.json', 'rb') succeeded, id=1025 p=0x01200988
+10/12/14 22:50:21.761: [0xfa0] FILE: s3eFileClose h=0x01200988
+10/12/14 22:50:21.766: [0xfa0] GX_VERBOSE: Generating default shader: #define FRAGMENT 
+#define UV0_STREAM 
+#define COL_STREAM 
+#define TEX0 
+10/12/14 22:50:21.767: [0xfa0] GX_VERBOSE: Generating default shader: #define UV0_STREAM 
+#define COL_STREAM 
+10/12/14 22:50:26.726: [0x2368] DEVICE: s3eDeviceNotify 2
+10/12/14 22:50:26.727: [0x2368] DEVICE: done s3eDeviceNotify
+10/12/14 22:50:26.727: [0x2368] DEVICE: done RequestQuit
+10/12/14 22:50:26.735: [0xfa0] GX_VERBOSE: IwGxTerminate
+10/12/14 22:50:26.737: [0xfa0] IW_GL: Terminating EGL...
+10/12/14 22:50:26.743: [0xfa0] IW_GL: Terminating EGL... Done
+10/12/14 22:50:26.744: [0xfa0] UTIL: IwCallStackTerm
+10/12/14 22:50:26.745: [0xfa0] FIBRE: calling s3eFibreExit() (rtn=0x00000000)
+10/12/14 22:50:26.745: [0xfa0] FIBRE: s3eFibreExit() 0x00df3ac8
+10/12/14 22:50:26.745: [0xfa0] FIBRE: s3eFibreExit() to 0x00df3aa4 from 0x00df3ac8
+10/12/14 22:50:26.746: [0xfa0] THREAD: s3eThreadCancelAll
+10/12/14 22:50:26.746: [0xfa0] THREAD: done s3eThreadCancelAll
+10/12/14 22:50:26.746: [0xfa0] THREAD: all threads now dead (current=0x00000fa0)
+10/12/14 22:50:26.747: [0xfa0] LOADER: Application has exited, starting cleanup
+10/12/14 22:50:26.747: [0xfa0] LOADER: Done execute S3E 0x00125628 [rtn=0]
+10/12/14 22:50:26.747: [0xfa0] SOUND: s3eSoundStop: started=0
+10/12/14 22:50:26.747: [0xfa0] LOADER: Unloading S3E 0x00125628 [c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X_x86\Stage1.s86]
+10/12/14 22:50:26.748: [0xfa0] LOADER: deleting DLL: c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_VC10X_x86\Stage1.s86
+10/12/14 22:50:26.749: [0xfa0] DEVICE: Terminating LICENSE
+10/12/14 22:50:26.749: [0xfa0] DEVICE: Terminating VIDEO
+10/12/14 22:50:26.749: [0xfa0] DEVICE: Terminating AUDIO
+10/12/14 22:50:26.750: [0xfa0] DEVICE: Terminating SOUND
+10/12/14 22:50:26.765: [0xfa0] DEVICE: Terminating POINTER
+10/12/14 22:50:26.766: [0xfa0] DEVICE: Terminating ACCELEROMETER
+10/12/14 22:50:26.766: [0xfa0] DEVICE: Terminating GL
+10/12/14 22:50:26.766: [0xfa0] DEVICE: Terminating VIBRA
+10/12/14 22:50:26.766: [0xfa0] DEVICE: Terminating TIMER
+10/12/14 22:50:26.767: [0xfa0] DEVICE: Terminating STORAGE
+10/12/14 22:50:26.767: [0xfa0] DEVICE: Terminating SOCKET
+10/12/14 22:50:26.768: [0xfa0] DEVICE: Terminating CONFIG
+10/12/14 22:50:26.768: [0xfa0] DEVICE: Terminating ERROR
+10/12/14 22:50:26.768: [0xfa0] DEVICE: Terminating MEMORY
+10/12/14 22:50:26.769: [0xfa0] DEVICE: Terminating CRYPTO
+10/12/14 22:50:26.769: [0xfa0] DEVICE: Terminating EXT
+10/12/14 22:50:26.769: [0xfa0] EXT: terminating extension: s3eWindow
+10/12/14 22:50:26.770: [0xfa0] EXT: terminating extension: s3eThread
+10/12/14 22:50:26.770: [0xfa0] DEVICE: Terminating SURFACE
+10/12/14 22:50:26.776: [0xfa0] DEVICE: Terminating KEYBOARD
+10/12/14 22:50:26.776: [0xfa0] DEVICE: Terminating DEBUG
+-- END TRACE --

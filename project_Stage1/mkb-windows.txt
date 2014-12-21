@@ -1,0 +1,1 @@
+VC10X;build_stage1_vc10x;

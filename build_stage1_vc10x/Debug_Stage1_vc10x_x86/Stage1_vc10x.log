@@ -1,0 +1,56 @@
+﻿Build started 10/12/2014 22:50:05.
+     1>Project "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug_Stage1_vc10x_x86\Stage1_vc10x.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Marmalade\7.4\s3e\bin\CL.exe /c /Ic:/marmalade/7.4/modules/iw2d/h /Ic:/marmalade/7.4/modules/iwgx/h /Ic:/marmalade/7.4/modules/iwgl/h /Ic:/marmalade/7.4/modules/iwutil/h /Ic:/marmalade/7.4/modules/third_party/libjpeg/h /Ic:/marmalade/7.4/modules/third_party/zlib/h /Ic:/marmalade/7.4/modules/third_party/libpng/h /Ic:/marmalade/7.4/modules/iwgeom/h /Ic:/marmalade/7.4/modules/iwresmanager/h /Ic:/marmalade/7.4/extensions/pvrtextool/h /Ic:/marmalade/7.4/modules/iwgxfont/h /Ic:/marmalade/7.4/modules/third_party/tiniconv/source /I"c:/marmalade/7.4/examples/gametutorial/cpp/stage1/libs/cjson-for-marmalade" /Ic:/marmalade/7.4/s3e/h /Ic:/marmalade/7.4/s3e/h/ext /Ic:/marmalade/7.4/s3e/h/std /Ic:/marmalade/7.4/s3e/h/std/c++ /Ic:/marmalade/7.4/s3e/h/ext_legacy /Ic:/marmalade/7.4/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_Stage1_vc10x_x86\\" /Fd"Debug_Stage1_vc10x_x86\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\source\animation.cpp ..\source\main.cpp /S3Eproject /J /FI"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\temp_defines_debug.h"
+         animation.cpp
+         main.cpp
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\animation.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         All outputs are up-to-date.
+       Link:
+         C:\Marmalade\7.4\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_Stage1_vc10x_x86\Stage1.s86" /INCREMENTAL /NOLOGO /LIBPATH:c:/marmalade/7.4/modules/iw2d/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgx/atitools /LIBPATH:c:/marmalade/7.4/modules/iwgx/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgl/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwutil/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/libjpeg/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/zlib/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/libpng/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgeom/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwresmanager/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/iwgxfont/lib/x86 /LIBPATH:c:/marmalade/7.4/modules/third_party/tiniconv/lib/x86 /LIBPATH:c:/marmalade/7.4/s3e/lib/x86 vc6_compat.lib iw2d_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwutil_d.lib jpeg_d.lib z_d.lib png_d.lib iwgeom_d.lib iwresmanager_d.lib iwgxfont_d.lib tiniconv_d.lib s3e_cpp_d.lib s3e_d.lib s3e_api_iwgl.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_Stage1_vc10x_x86\Stage1.lib" /MACHINE:X86 /DLL Debug_Stage1_vc10x_x86\PVRTexTool_interface.obj
+         Debug_Stage1_vc10x_x86\animation.obj
+         Debug_Stage1_vc10x_x86\cJSON.obj
+         Debug_Stage1_vc10x_x86\main.obj
+         Debug_Stage1_vc10x_x86\test.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12
+         Stage1_vc10x.vcxproj -> c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86
+       PostBuildEvent:
+         echo C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86"
+         chdir /d "c:\marmalade\7.4\s3e\tools"
+         C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86"
+         echo "s3e_plink" -l "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86" 
+         chdir /d "c:\marmalade\7.4\s3e\bin"
+         "s3e_plink" -l "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86" 
+         
+         :VCEnd
+         C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86"
+         "s3e_plink" -l "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_x86\Stage1.s86" 
+       FinalizeBuildStatus:
+         Deleting file "Debug_Stage1_vc10x_x86\Stage1_vc10x.unsuccessfulbuild".
+         Touching "Debug_Stage1_vc10x_x86\Stage1_vc10x.lastbuildstate".
+     1>Done Building Project "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25

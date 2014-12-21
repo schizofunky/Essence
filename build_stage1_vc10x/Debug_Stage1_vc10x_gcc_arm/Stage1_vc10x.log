@@ -1,0 +1,46 @@
+﻿Build started 09/12/2014 19:47:28.
+     1>Project "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug_Stage1_vc10x_gcc_arm\Stage1_vc10x.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Marmalade\7.4\s3e\bin\CL.exe /c /Ic:/marmalade/7.4/modules/iw2d/h /Ic:/marmalade/7.4/modules/iwgx/h /Ic:/marmalade/7.4/modules/iwgl/h /Ic:/marmalade/7.4/modules/iwutil/h /Ic:/marmalade/7.4/modules/third_party/libjpeg/h /Ic:/marmalade/7.4/modules/third_party/zlib/h /Ic:/marmalade/7.4/modules/third_party/libpng/h /Ic:/marmalade/7.4/modules/iwgeom/h /Ic:/marmalade/7.4/modules/iwresmanager/h /Ic:/marmalade/7.4/extensions/pvrtextool/h /Ic:/marmalade/7.4/modules/iwgxfont/h /Ic:/marmalade/7.4/modules/third_party/tiniconv/source /I"c:/marmalade/7.4/examples/gametutorial/cpp/stage1/libs/cjson-for-marmalade" /Ic:/marmalade/7.4/s3e/h /Ic:/marmalade/7.4/s3e/h/ext /Ic:/marmalade/7.4/s3e/h/std /Ic:/marmalade/7.4/s3e/h/std/c++ /Ic:/marmalade/7.4/s3e/h/ext_legacy /Ic:/marmalade/7.4/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_Stage1_vc10x_gcc_arm\\" /Fd"Debug_Stage1_vc10x_gcc_arm\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\source\main.cpp /S3Eproject /J /Fe"s3e-custom-tool='c:/marmalade/7.4/s3e/gcc/win32/bin/arm-none-eabi-gcc.exe' tooltype=gcc_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -save-temps -ffunction-sections -mstructure-size-boundary=8 -march=armv6 -mfloat-abi=soft -mthumb-interwork -mword-relocations -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc -fPIC --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -g -O0 -gdwarf-2" /FD  /FI"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\temp_defines_debug.h"
+         ARM Compiling(GCC) c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\source\main.cpp ...
+         c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/source/main.cpp: In function 'int main()':
+     1>c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/source/main.cpp(24): warning : deprecated conversion from string constant to 'char*' [-Wwrite-strings] (col 21)
+         
+         char* jsonString = "{\"name\":\"scott\"}";
+         ^
+         C:\Marmalade\7.4\s3e\bin\CL.exe /c /Ic:/marmalade/7.4/modules/iw2d/h /Ic:/marmalade/7.4/modules/iwgx/h /Ic:/marmalade/7.4/modules/iwgl/h /Ic:/marmalade/7.4/modules/iwutil/h /Ic:/marmalade/7.4/modules/third_party/libjpeg/h /Ic:/marmalade/7.4/modules/third_party/zlib/h /Ic:/marmalade/7.4/modules/third_party/libpng/h /Ic:/marmalade/7.4/modules/iwgeom/h /Ic:/marmalade/7.4/modules/iwresmanager/h /Ic:/marmalade/7.4/extensions/pvrtextool/h /Ic:/marmalade/7.4/modules/iwgxfont/h /Ic:/marmalade/7.4/modules/third_party/tiniconv/source /I"c:/marmalade/7.4/examples/gametutorial/cpp/stage1/libs/cjson-for-marmalade" /Ic:/marmalade/7.4/s3e/h /Ic:/marmalade/7.4/s3e/h/ext /Ic:/marmalade/7.4/s3e/h/std /Ic:/marmalade/7.4/s3e/h/std/c++ /Ic:/marmalade/7.4/s3e/h/ext_legacy /Ic:/marmalade/7.4/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_Stage1_vc10x_gcc_arm\\" /Fd"Debug_Stage1_vc10x_gcc_arm\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\libs\cjson-for-marmalade\test.c" /S3Eproject /J /Fe"s3e-custom-tool='c:/marmalade/7.4/s3e/gcc/win32/bin/arm-none-eabi-gcc.exe' tooltype=gcc_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -save-temps -ffunction-sections -mstructure-size-boundary=8 -march=armv6 -mfloat-abi=soft -mthumb-interwork -mword-relocations -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc -fPIC --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -g -O0 -gdwarf-2" /FD  /FI"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\temp_defines_debug.h"
+         ARM Compiling(GCC) c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\libs\cjson-for-marmalade\test.c ...
+     1>c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/libs/cjson-for-marmalade/test.c(76): warning : "/*" within comment [-Wcomment] (col 2)
+         
+         /* Our "days of the week" array: */
+         ^
+     1>c:/Marmalade/7.4/examples/GameTutorial/CPP/Stage1/libs/cjson-for-marmalade/test.c(148): warning : "/*" within comment [-Wcomment] (col 1)
+         
+         /* dofile("../../tests/test1"); */
+         ^
+       Link:
+         C:\Marmalade\7.4\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_Stage1_vc10x_gcc_arm\Stage1.s3e" /INCREMENTAL /NOLOGO /LIBPATH:c:/marmalade/7.4/modules/iw2d/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/iwgx/atitools /LIBPATH:c:/marmalade/7.4/modules/iwgx/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/iwgl/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/iwutil/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/third_party/libjpeg/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/third_party/zlib/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/third_party/libpng/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/iwgeom/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/iwresmanager/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/iwgxfont/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/modules/third_party/tiniconv/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.4/s3e/lib/arm/v6/nofpu/soft /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_gcc_arm\Stage1.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_Stage1_vc10x_gcc_arm\Stage1.lib" /MACHINE:X86 /DLL Debug_Stage1_vc10x_gcc_arm\PVRTexTool_interface.obj
+         Debug_Stage1_vc10x_gcc_arm\cJSON.obj
+         Debug_Stage1_vc10x_gcc_arm\main.obj
+         Debug_Stage1_vc10x_gcc_arm\test.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12/COMMENT:"s3e-custom-tool='c:/marmalade/7.4/s3e/gcc/win32/bin/arm-none-eabi-g++.exe' tooltype=gcc_linker -Wl,--gc-sections -Wl,--as-needed -march=armv6 -mfloat-abi=soft -mthumb-interwork -pie -Wl,--entry=_IwMain -Wl,--no-enum-size-warning -Wl,-Tlinker_script -lc -lm -Wl,-Map='Debug_Stage1_vc10x_gcc_arm\/Stage1.map' -Wl,--start-group -liw2d_d -liwgx_d -liwgl_d -liwutil_d -ljpeg_d -lz_d -lpng_d -liwgeom_d -liwresmanager_d -liwgxfont_d -ltiniconv_d -ls3e_cpp_d -ls3e_d -ls3e_api_iwgl -Wl,--end-group --plink:--arch=armv6 --plink:--compiler=rvct --plink:-u"
+         ARM Linking(GCC) ...
+         Stage1_vc10x.vcxproj -> c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_gcc_arm\Stage1.s3e
+       PostBuildEvent:
+         echo C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_gcc_arm\Stage1.s3e"
+         chdir /d "c:\marmalade\7.4\s3e\tools"
+         C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_gcc_arm\Stage1.s3e"
+         
+         :VCEnd
+         C:\Marmalade\7.4\s3e\python\python.exe .\process_map.py "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Debug_Stage1_vc10x_gcc_arm\Stage1.s3e"
+       FinalizeBuildStatus:
+         Deleting file "Debug_Stage1_vc10x_gcc_arm\Stage1_vc10x.unsuccessfulbuild".
+         Touching "Debug_Stage1_vc10x_gcc_arm\Stage1_vc10x.lastbuildstate".
+     1>Done Building Project "c:\Marmalade\7.4\examples\GameTutorial\CPP\Stage1\build_stage1_vc10x\Stage1_vc10x.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.22

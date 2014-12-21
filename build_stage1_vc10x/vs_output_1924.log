@@ -1,0 +1,12 @@
+1>------ Build started: Project: Stage1_vc10x, Configuration: x86 Debug Win32 ------
+1>  main.cpp
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(34): error C2065: 'File' : undeclared identifier
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+1>c:\marmalade\7.4\examples\gametutorial\cpp\stage1\source\main.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+

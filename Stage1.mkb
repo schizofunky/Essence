@@ -1,0 +1,26 @@
+#!/usr/bin/env mkb
+
+subprojects
+{
+    iw2d
+    ../../../MarmaladeExampleResources
+
+	(libs)
+    # path to cjson.mkf
+    cJSON-for-marmalade/cjson
+}
+
+files
+{
+    [source]
+    (source)
+    main.cpp
+	animation.cpp
+	animation.h
+}
+
+assets
+{
+    (data)
+    textures
+}
